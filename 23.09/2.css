@@ -1,0 +1,19 @@
+html, body {
+    margin: 0;
+    min-height: 100%;
+    width: 100%;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li {
+    display: flex;
+    width: 200px;
+    height: 100px;
+    background-color: antiquewhite;
+}
+
+#menu li > ul {
+    visibility: collapse;
+    overflow: hidden;
+}

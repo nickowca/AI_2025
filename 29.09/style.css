@@ -1,0 +1,91 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0; 
+    background-image: url(./fiat.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+header {
+    background-color: white;
+    height: 100px;
+    justify-content: space-between;
+    padding: 40px 0px 0px 0px;
+    width: 1000px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+}
+
+
+.logo {
+    width: 50%;
+    margin-left: 10px;
+}
+
+nav {
+    width: 50%;
+    display: flex;
+    position: relative;
+}
+
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav button {
+    background-color: white;
+    transition-duration: 0.5s;
+    border: none;
+    padding: 10px 12px;
+    border-radius: 16px;
+}
+
+nav button:hover {
+    background-color: red;
+}
+
+#title {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    color: white;
+    width: 1000px;
+    height: 200px;
+}
+
+#title h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    
+    font-weight: 100;
+    
+}
+
+#desc {
+    background-color: rgba(44, 40, 40, 0.429);
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+    transition-duration: 0.6s;
+    padding: 0px 40px 0px 40px;
+}
+
+#desc:hover {
+    background-color: rgb(44, 40, 40);
+}
+
+.zoom {
+    transition-duration: 0.2s;
+}
+
+.zoom:hover {
+    transform: scale(1.2);
+}

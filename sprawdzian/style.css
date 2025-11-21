@@ -1,0 +1,164 @@
+@font-face {
+    font-family: czcionka;
+    src: url(raleway.ttf);
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(./fiesta-2.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+}
+
+
+
+header {
+    display: flex;
+    background-color: #262626;
+    padding: 0 15% 0 15%;
+}
+
+.logo {
+    width: 50%;
+}
+
+.logo img {
+    width: 150px;
+}
+
+
+nav {
+    width: 50%;
+}
+
+nav ul {
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav button {
+    background-color: #262626;
+    border: none;
+    color: #9b9b9b;
+    padding: 20px 10px;
+}
+
+nav button:hover {
+    background-color: #3c3c3c;
+    border: none;
+    padding: 20px 10px;
+}
+
+#description {
+    margin: auto;
+    margin-top: 50px;
+    height: 600px;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #e0dada89;
+    margin-bottom: 50px;
+}
+
+.description-car {
+    width: 40%;
+    display: flex;
+    padding: 0 50px 0 50px;
+}
+
+.description-car img {
+    width: 100%;
+    align-items: center;
+    transition-duration: 0.3s;
+    justify-content: center;
+}
+
+.description-car img:hover {
+    transform: rotate(45deg);
+    border: 20px solid #3c3c3c5c;
+}
+
+.description {
+    width: 60%;
+    margin: 0 50px 0 0;
+}
+
+.description p {
+    margin-top: 30px;
+    font-family: czcionka;
+    font-weight: 1000;
+}
+
+.description h1 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: czcionka;
+}
+
+.underline {
+    margin-left: 10px;
+    position: absolute;
+    width: 100px;
+    background-color: #779936;
+    height: 3px;
+}
+
+#info {
+    display: flex;
+    background-color: white;
+    height: 250px;
+    gap: 50px;
+    padding: 1% 15% 0 15%;
+}
+
+.mail {
+    width: 40px;
+}
+
+#info p {
+    font-size: 17px;
+    margin-top: 20px;
+    font-family: czcionka;
+}
+
+
+
+#info-heading {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    gap: 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-family: czcionka;
+}
+
+footer {
+    background-color: #8EB640;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    font-family: czcionka;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+
+}
+
+.zoom {
+    transition-duration: 0.2s;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}

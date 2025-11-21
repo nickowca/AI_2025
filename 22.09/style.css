@@ -1,0 +1,70 @@
+.przez_klase {
+    color: blue;
+}
+
+#przez_id {
+    color: red;
+}
+
+.z2>table {
+    background-color: #72de5c;
+    border: 5px solid #126302;
+}
+
+.z2 td {
+    background-color: #3c972a;
+
+}
+
+.z3 div {
+    border: 2px solid black;
+    text-align: center;
+    margin: 5px 20px 5px 20px;
+    font-size: 20px;
+}
+
+.grupa1 {
+    background-color: #3bc429;
+    color: white;
+}
+
+.grupa2 {
+    background-color: #e99400;
+}
+
+.podgrupa2_1 {
+    width: auto;
+    background-color: purple;
+    margin: auto;
+}
+
+.podgrupa2_2 {
+    background-color: yellow;
+}
+
+
+.z5 {
+    width: 100px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.z5 div:first-of-type {
+
+    background-color: green;
+    text-align: left;
+    margin: 20px 20px 20px 20px;
+
+}
+
+.z5 div:has(+ div:last-of-type) {
+    background-color: yellow;
+}
+
+.z5 div:last-of-type {
+    background-color: red;
+    padding: 20px 20px 20px 20px;
+    text-align: right;
+}
+
+

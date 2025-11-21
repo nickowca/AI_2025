@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generator Listy Zadania</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <div class="content">
+        <div class="settings">
+            <h1>Ustawienia list</h1>
+            <label for="title">Tytuł elementu:</label>
+            <input type="text" id="title" value="Zadanie"> <br>
+
+            <label for="number">Ilość elementów (max 30):</label>
+            <input type="number" id="number" min="1" max="30" value="10"> <br>
+            <label for="colour1">Kolor 1 (Wiersz parzysty):</label>
+            <input type="color" id="colour1" value="#cccccc"> <br>
+            <label for="colour2">Kolor 2 (Wiersz nieparzysty):</label>
+            <input type="color" id="colour2" value="#ffffff"> <br>
+
+            <button id="generate" onclick="generujliste()">GENERUJ LISTĘ</button>
+
+        </div>
+        <div class="output">
+            <h1>Wygenerowana lista</h1>
+            <div class="result">
+                <ul id="list"></ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+
+</head>
+
+<style>
+    table,
+    th,
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 10px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <label for="size">Rozmiar tablicy: </label>
+        <input type="number" id="x"> <input type="number" id="y"> <br>
+        <label for="range">Zakres liczb: </label>
+        <input type="number" name="min" id="min">
+        <input type="number" name="max" id="max"><br>
+        <input type="button" id="generate" value="GENERUJ" onclick="generate()">
+
+        <hr>
+
+        <label for="divisor"></label>
+        <input type="number" name="divisor" id="divisor"> <br><br>
+        <label for=""><input type="radio" name="mode" id="all"> Sumuj całą tablicę</label>
+        <label for=""><input type="radio" name="mode" id="onlyDiv"> Sumuj tylko podzielne</label> <br> <br>
+        <label for="">Zaznacz kolorem parzyste:<input type="color" name="colour" id="colour"></label> <br> <br>
+        <label for="">Wypisz różnicę sumy liczb podzielnych i sumy liczb parzystych: </label>
+        <button id="calc" onclick="calculate()">RÓŻNICA</button>
+
+
+        <div id="table"></div>
+
+        <div id="result"></div>
+    </div>
+</body>
+
+</html>

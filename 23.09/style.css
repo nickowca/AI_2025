@@ -1,0 +1,41 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+li {
+    display: block;
+    width: 150px;
+    height: 70px;
+    background-color: violet;
+    border-radius: 5px;
+    position: relative;
+    transition-duration: 0.2s;
+}
+
+li:hover {
+    background-color: aliceblue;
+    transform: scale(1.1) rotate(180deg);    
+}
+
+
+
+#menu li > ul {
+    visibility: collapse;
+    overflow: hidden;
+    position: relative;
+    left: 110px;
+    top: 0px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+#menu li:hover>ul {
+    visibility: visible;
+    opacity: 100;
+}

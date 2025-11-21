@@ -1,0 +1,13 @@
+#clicker {
+    width: 800px;
+    margin: auto;
+    height: 150px;
+    background-color: cadetblue;
+}
+
+#content {
+    width: 100px;
+    height: 100px;
+    transition-duration: 1s;
+    border: 1px solid grey;
+}
